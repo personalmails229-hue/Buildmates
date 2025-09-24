@@ -1,0 +1,8 @@
+Android / iOS platform notes:
+
+- Razorpay requires platform-specific configuration. Add keys and permissions per package docs.
+- For Android: update AndroidManifest with internet permission and optional meta-data for keys.
+- For iOS: set up URL schemes and add required plist entries.
+- Geolocation requires runtime permissions (ACCESS_FINE_LOCATION on Android).
+
+This starter intentionally leaves platform files minimal; follow packages' docs for integration steps.
